@@ -11,3 +11,5 @@ const itemsSchema=new mongoose.Schema({
         required:true,
     }
 })
+
+module.exports=mongoose.model('Items',itemsSchema)
